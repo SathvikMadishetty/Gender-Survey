@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+	<h1 >SURVEY</h1>
+	<title>FORM FILLING</title>
+</header>
+<head>
+	<meta charset="UTF-8">
+	
+<style>
+		
+		#mail,#password
+		{
+		border:2px solid red;
+		border-radius:10px;
+		}
+		h1
+		{
+		text-align:center;
+		color:blue
+		}
+		body
+		{
+		background-image:url("bgimage.jpg")
+		}
+</style>
+</head>
+<body >
+<h2>Select Your Gender</h2>
+<p>(Please be Accurate)</p>
+<form action="redirect.html" method="POST">
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+  <h3>Fill your email address and password</h3>
+  <label for="mail">Email:</label><br>
+  <input type="email" id="mail" name="mail" value=""><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" value=""><br><br>
+  <input type="submit" >
+  
+</form>
+</body>
+</html>
